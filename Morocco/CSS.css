@@ -1,0 +1,133 @@
+body {
+    width: 960px;
+    background-color: #747070;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    width: 1580px;
+    height: 105px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 40px;
+
+}
+
+.logo img {
+    position: relative;
+    bottom: 40px;
+    left: 20px;
+    top: 20px;
+    width: 150px;
+}
+
+.menu ul {
+    font-size: x-large;
+    padding: 15px;
+    position: relative;
+    bottom: 75px;
+    left: 750px;
+    display: flex;
+}
+
+.menu a {
+    color: #bd9471;
+    font-size: larger;
+    font-weight: bold;
+    display: inline;
+    position: relative;
+    list-style-type: none;
+    margin-left: 30px;
+    margin-right: 40px;
+    text-decoration: none;
+
+}
+
+.slider img {
+    margin-top: 30px;
+    /* margin-bottom: 10px; */
+    position: relative;
+    left: 300px;
+    height: 350px;
+    width: 885px;
+}
+
+.big {
+    width: 990px;
+    height: 500px;
+    position: relative;
+    left: 300px;
+    margin: 30px auto;
+}
+
+
+article {
+    clear: both;
+    margin-top: 10px;
+}
+
+section {
+    width: 200px;
+    border: 2px solid #270906;
+    margin: 5px;
+    padding: 5px;
+    float: left;
+}
+
+.footer {
+
+    background-color: darkgrey;
+}
+
+footer {
+    height: 50px;
+    width: 80vw;
+    clear: both;
+    margin-top: 10px;
+}
+
+.footer {
+    width: 1550px;
+    /* position: relative; */
+    /* right: -100px; */
+}
+
+nav {
+    width: 1000px;
+    position: relative;
+    top: -60px;
+    left: 100px;
+}
+
+nav li {
+    background: rgb(218, 233, 9);
+    display: inline;
+    list-style: none;
+}
+
+nav li a {
+    border: solid 1px rgb(240, 238, 238);
+    background: rgb(221, 168, 144);
+    text-decoration: none;
+    color: black;
+    padding: 15px 60px;
+    margin: -2px;
+}
+
+nav li a:hover {
+    background-color: rgb(211, 163, 5);
+    text-decoration: underline;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+.section3 {
+    width: 200px;
+    height: 200px;
+    background-color: #F6F7F9;
+
+}
+.icon{
+    font-size: large
+}
